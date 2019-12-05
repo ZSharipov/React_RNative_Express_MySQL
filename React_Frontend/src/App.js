@@ -42,7 +42,7 @@ klikGet(e){
 
 render() {
   const dataMySQL = this.state.dataku.map((item, index)=>{
-    var arrayku = ['Nama: ',item.Nama,', Usia: ', item.Usia, ' th.'].join(' ');
+    var arrayku = ['Nama: ',item.nama,', Usia: ', item.usia, ' th.'].join(' ');
     return <p key={index}>{arrayku}</p>;
   })
   return (
